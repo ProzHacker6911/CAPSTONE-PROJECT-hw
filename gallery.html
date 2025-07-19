@@ -5,6 +5,18 @@
     <style>
         body {
             margin: 0;
+            font-size: 16px;
+            font-weight: 400;
+        }       
+        .cover{
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAyCAYAAAB6yrh2AAAAAXNSR0IArs4c6QAAATpJREFUWEftlssNg0AMRB+8gQ9ME0EXkEzQTdBM0E3QTNBO0GPjKwTN5JNN1p3ZOncna5LB+9nL+IAPkQMaMydLkuhz7U6CpQ9Rw++U0eNaTeKR6hA2UkPfSLqAG7CjHgARfAukYgDY+LRZwEm/La5QvEb9NZyvlrhNlwOhcd9OPaHpzAW4oYMBAbNwSkQ0EGGpWJloY1XFnOgnvDJ6z7X2gI1xUnwC48ECnVgNDPv3cM1PgEmC2mwXBYiSgyUAI9RIN+1XeZWIUB9ZVUt9lpUbi+p4XLZNSNVTUupR8kPeSAc0DWmrQlTg8AAAAASUVORK5CYII=");
+            height: 400px;
+            position: relative;
+            opacity: 1;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
         .topnav {
             background-color: black;
@@ -26,17 +38,52 @@
             background-color:grey;
             color: white;
         }
+        .section{
+            text-align: center;
+            padding: 50px 80px;
+            color: black;
+        }
+        p{font-size: 20px;
+          text-align: left;
+        }
     </style>
 </head>
-<body>
+<body style="background-color: pink">
     <div class="topnav">
         <a href="home.html">home</a>
         <a href="about.html">about</a>
         <a class="active" href="gallery.html">gallery</a>
         <a href="contact.html">contact</a>
     </div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/HAASTS_BLUFF_%28IKUNTJI%29.jpg/330px-HAASTS_BLUFF_%28IKUNTJI%29.jpg">
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/29/Wintjiya_Napaltjarri_2006_work.jpg/250px-Wintjiya_Napaltjarri_2006_work.jpg">
-
+    <div class="cover"></div>
+        <section class="section">
+    <h1>HTML</h1>
+    <p>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" style="width: 350px; height: 270px; float: right; margin-left:15px;">
+         <b>HTML (HyperText Markup Language)</b><br>
+HTML is the foundation of any webpage. It defines the structure and content of the page using elements called tags. These tags tell the browser how to display text, images, links, and other content. For example, you use &lt;h1&gt; for a main heading, &lt;p&gt; for paragraphs, and &lt;img&gt; to show images. Without HTML, websites wouldn’t have any meaningful content to display.
+    </p>
+ <br><br><br><br><br><br><br><br><br><br>
+     <h1>CSS</h1>
+    <p>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" style="width: 350px; height: 270px; float: right; margin-left:15px;">
+         <b>CSS (Cascading Style Sheets)</b><br>
+CSS controls the style and layout of a webpage. It lets you change colors, fonts, spacing, and positions of HTML elements to make the page look attractive and organized. For example, CSS can make all paragraphs blue, set the background color, or create responsive layouts that adjust on different screen sizes. By separating content (HTML) from style (CSS), web design becomes more flexible and easier to maintain.
+    </p>
+ <br><br><br><br><br><br><br><br><br><br>
+     <h1>JS</h1>
+    <p>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" style="width: 350px; height: 270px; float: right; margin-left:15px;">
+         <b>JavaScript (JS)</b><br>
+JavaScript is the programming language that makes web pages interactive. With JavaScript, you can respond to user actions like clicks, form submissions, or keyboard input. It can dynamically update content, validate forms, create animations, and communicate with servers without reloading the page. JS turns static HTML and CSS into lively, engaging experiences.
+    </p>
+ <br><br><br><br><br><br><br><br><br><br>
+     <h1>BOOTSTRAP</h1>
+    <p>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" style="width: 350px; height: 270px; float: right; margin-left:15px;">
+         <b>Bootstrap</b><br>
+Bootstrap is a popular front-end framework that helps you build responsive, mobile-first websites quickly. It provides pre-made CSS styles and JavaScript components, like buttons, navbars, modals, and grids, so you don’t have to write everything from scratch. Bootstrap’s grid system also helps in designing layouts that automatically adjust for desktops, tablets, and phones.
+    </p>
+    </section>
 </body>
 </html>
